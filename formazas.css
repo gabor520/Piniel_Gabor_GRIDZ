@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    color:white;
+}
+#menu {
+    margin: 16px;
+
+}
+#menu ul{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+#resz{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    text-align: center;
+}
+
+.kep{
+    width: 100px;
+
+}
+.tartalom{
+    text-align: left;
+    
+}
+
+h1{
+    text-align: center;
+}
+#container{
+    margin:auto;
+}
+
+@media  screen and (max-width:600px){
+    #menu ul{grid-template-columns:1fr;}
+    #resz{grid-template-columns:1fr;}
+}
+
+
+
