@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color:white;
 }
 #menu {
@@ -26,9 +26,21 @@ body{
     border-right:1px solid crimson;
 }
 .tartalom3 h1{
-     text-align:left ;
+     text-align:left;
+     border-bottom: 1px solid crimson;
+     margin-right: 1200px;
+     margin-left: 20px;
 }
-
+.tartalom3 p{
+    text-align:left;
+    margin-left:20px;
+    margin-right:20px;
+}
+.kep3{
+    text-align: right;
+    margin-right: 120px;
+    margin-left: 1200px;
+}
 h1{
     text-align: center;
 }
@@ -44,7 +56,36 @@ h2{
 .divkep{
     text-align: center;
 }
-
+.tartalom4
+{
+    text-align: center;
+}
+.tartalom4 h1{
+    border-bottom: 1px solid crimson;
+    margin-left:1000px;
+    margin-right:1000px;
+}
+.Mutasd az elérhetőségeket{
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(54, 103, 167);
+    padding: 12px;
+}
+.tartalom4{
+    margin: auto;
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+}
+.brendon{
+    text-align:center;
+}
+#elerhetosegek{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:50px;
+}
 @media  screen and (max-width:600px){
     #menu ul{grid-template-columns:1fr;}
     #resz{grid-template-columns:1fr;}
