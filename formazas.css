@@ -20,22 +20,36 @@ body{
     width: 100px;
 
 }
-.tartalom{
+.tartalom2{
     text-align: left;
-    
+    border-left:1px solid crimson;
+    border-right:1px solid crimson;
+}
+.tartalom3 h1{
+     text-align:left ;
 }
 
 h1{
     text-align: center;
 }
+h2{
+    text-align: center;
+}
+#resz ul{
+    text-align: left;
+}
 #container{
     margin:auto;
+}
+.divkep{
+    text-align: center;
 }
 
 @media  screen and (max-width:600px){
     #menu ul{grid-template-columns:1fr;}
     #resz{grid-template-columns:1fr;}
 }
+
 
 
 
